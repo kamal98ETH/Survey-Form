@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(98, 98, 176);
+    font-family: Tahoma;
+}
+
+h1,
+p {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background-color: rgb(42, 40, 70);
+    width: 80%;
+    max-width: 720px;
+    min-width: 450px;
+    margin: 0 auto;
+
+}
+
+form {
+    padding: 40px;
+}
+
+select,
+#name,
+#email,
+#number,
+#comment {
+    height: 35px;
+    width: 99%;
+}
+
+input,
+select,
+#comment {
+    color: rgb(135, 140, 145);
+    font-size: 18px;
+    padding: 0 0 0 10px;
+    border-radius: 0.15cm;
+
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    color: white;
+    margin-bottom: 25px;
+}
+
+#name,
+#email,
+#number,
+#comment {
+    margin-top: 14px;
+
+}
+
+.inline {
+    width: unset;
+    margin: 15px 0.5em 0 0;
+    vertical-align: middle;
+}
+
+#dropdown,
+#submit {
+    color: rgb(135, 140, 145);
+    margin-top: 10px;
+    width: 99%;
+}
+
+#comment {
+    height: 100px;
+}
+
+#submit {
+    height: 45px;
+    background-color: rgb(55, 175, 101);
+    color: white;
+}
